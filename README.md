@@ -139,3 +139,5 @@ public class MainActivity extends AppCompatActivity implements VehiculoAdapter.O
 ```
 
 Recordad que para poder utilizar la clase _RecyclerView_ deberemos incluir la dependencia _com.android.support:recyclerview-v7:28.0.0_ en el fichero _build.gradle(Module:app)_.
+
+**NOTA:** Para las nuevas versiones, en lugar de incluir la dependencia anterior, se deberá incluir la dependencia indicada en _https://developer.android.com/jetpack/androidx/releases/recyclerview_.
